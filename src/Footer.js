@@ -6,7 +6,7 @@ export default function Footer() {
       <small>
         Open source code by{" "}
         <a
-          href="https://github.com/Mel-Lowe/vanilla-weather-app-1"
+          href="https://github.com/Mel-Lowe/react-weather-test"
           target="_blank"
           rel="noreferrer"
         >
