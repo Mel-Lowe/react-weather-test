@@ -1,38 +1,104 @@
 .App {
+  max-width: 650px;
+  margin: 80px auto;
+  padding: 20px;
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid #878787;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+}
+form {
+  margin-bottom: 40px;
+}
+hr {
+  color: rgba(235, 110, 75, 0.4);
+}
+
+#currentCity {
+  margin-top: 10px;
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 600;
+}
+#current-description {
+  text-transform: capitalize;
+}
+.current-info {
+  margin-top: 20px;
+}
+
+.current-info ul {
+  padding-left: 3px;
+}
+
+li {
+  list-style: none;
+}
+
+#current-temp-icon {
+  position: relative;
+  top: -20px;
+}
+
+.current-temp {
+  margin-right: 20px;
+  float: right;
+}
+
+#current-temp-integer {
+  font-size: 80px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.currentTempUnits {
+  font-size: 20px;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+  cursor: default;
+}
+
+.currentTempUnits .active {
+  color: #1a8753;
+}
+
+a:link {
+  text-decoration: none;
+  color: #eb6e4b;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #eb6e4b;
+}
+
+a:hover {
+  color: #1a8753;
+  cursor: default;
+}
+
+.weatherForecast {
+  margin-top: 20px;
+}
+.weather-forecast-tile {
+  margin: 10px;
+  border-radius: 10px;
   text-align: center;
+  background-color: rgba(117, 122, 121, 0.2);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-forecast-date {
+  font-weight: 600;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#forecast-temp-max {
+  color: rgba(26, 135, 83, 1);
+  font-weight: 600;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#forecast-temp-min {
+  color: rgba(26, 135, 83, 0.6);
+  font-weight: 600;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer {
+  margin-top: 30px;
 }
