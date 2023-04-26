@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer>
+    <div>
       <small>
         Open source code by{" "}
         <a
@@ -13,6 +13,6 @@ export default function Footer() {
           Melowe{" "}
         </a>
       </small>
-    </footer>
+    </div>
   );
 }
